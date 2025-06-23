@@ -78,7 +78,7 @@ The following questions address a change that requires resharing content with ex
 
 **1. How can I check if my tenant has enabled SharePoint and OneDrive integration with Entra B2B?**
 
-**Answer:** You can verify this using the SharePoint Online Management Shell. Run the following PowerShell cmdlet: Get-SPOTenant. In the output, look for the EnableAzureB2BIntegration property. If it is set to True, Entra B2B integration is enabled. If it is False, the integration is not enabled.
+**Answer:** You can verify this using the SharePoint Online Management Shell. Run the following PowerShell cmdlet: Get-SPOTenant. In the output, look for the EnableAzureADB2BIntegration property. If it is set to True, Entra B2B integration is enabled. If it is False, the integration is not enabled.
 
 **2. Is there an impact of previously shared links on tenants which do not have Entra B2B integration enabled?**
 
